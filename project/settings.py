@@ -39,10 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'biblioteca',
-    'hello',
-    'noobsite',
-    'pwsite',
-    'app',
+    'autenticacao',
 ]
 
 MIDDLEWARE = [
@@ -144,6 +141,6 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'cvp.django.app@gmail.com'
-EMAIL_HOST_PASSWORD = 'pxrqqpeiaobekqkq'  # usar uma google app password
+EMAIL_HOST_PASSWORD = 'pxrqqpeiaobekqkq'  # google app password
 
-LOGIN_URL = 'login'
+LOGIN_URL = 'autenticacao:login'
