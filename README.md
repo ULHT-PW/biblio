@@ -14,3 +14,15 @@ Na conta Google associada configurar o acesso de aplicações externas
 2. configure o backend de e-mail em settings.py 
   * para que os e-mails de redefinição de senha sejam enviados aos utilizadores. 
   * Especifique o username da conta Google e a password de API criada.
+
+```python
+# settings.py
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend’
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+EMAIL_HOST_USER = 'seu.email@gmail.com'
+EMAIL_HOST_PASSWORD = 'googleAppPassword'
+```
