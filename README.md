@@ -6,7 +6,7 @@ Autenticado na Conta Gmail Google que pretende configurar a App Password.
 2.  Após a ação anterior deverá abrir um novo tab com dashboard da conta Google. No lado esquerdo do ecrã deverá clicar em "Segurança".
 3.  A meio da página de segurança deverá existir um grupo de opções "Como iniciar sessão na Google" e no mesmo deverá ter a opção "Validação em 2 passos" ativada. Caso a mesma não esteja ativa, terá de a ativar e configurar.
 4.  Na searchbar no header da página segurança deverá pesquisar "Palavras-passe de apps" e seleciona a opção que irá surgir onde redirecciona o utilizador para a página "Palavras-passe de apps".
-5.  Na página "Palavras-passe de apps" deverá surgir um fieldset com o titúlo "As suas palavras-passe de aplicações" onde pede para introduzir o nome de uma aplicação. Pode introduzir um nome qualquer como por exemplo: django-pw-email e clicar "Criar". #Atencao irá surgir um pop-up com uma palavra-chave que será apenas mostrado uma vez. Devem copiar app password e retirar os espacos em branco da nesna.
+5.  Na página "Palavras-passe de apps" deverá surgir um fieldset com o titúlo "As suas palavras-passe de aplicações" onde pede para introduzir o nome de uma aplicação. Pode introduzir um nome qualquer como por exemplo: django-pw-email e clicar "Criar". # Atencao irá surgir um pop-up com uma palavra-chave que será apenas mostrado uma vez. Devem copiar app password e retirar os espacos em branco da nesna.
 6. Configure o backend de e-mail em settings.py 
   * para que os e-mails de redefinição de senha sejam enviados aos utilizadores. 
   * Especifique o username da conta Google e a password de API criada.
